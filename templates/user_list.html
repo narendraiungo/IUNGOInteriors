@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for user in users %}
+    <h1>{{ user.username }}</h1>
+
+    <h3>{{ user.first_name }}</h3>
+     <h3>{{ user.last_name }}</h3>
+     <h3>{{ user.client_type }}</h3>
+    <h3>{{ user.client_category }}</h3>
+
+{% endfor %}
+</body>
+</html>
+#'username','email','first_name','last_name','client_type','client_category'
