@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19f17203-621a-4b04-8cfb-a5d595e49c24" name="Default Changelist" comment="" />
+    <list default="true" id="19f17203-621a-4b04-8cfb-a5d595e49c24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookappointment/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IUNGOInteriors/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/IUNGOInteriors/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LIstings/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/LIstings/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LIstings/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LIstings/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LIstings/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/LIstings/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +73,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TjJRg1YD7fkeZTANDEYLy95752" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -131,11 +144,22 @@
       <workItem from="1574059459535" duration="812000" />
       <workItem from="1574140149921" duration="3278000" />
       <workItem from="1574168717246" duration="5367000" />
-      <workItem from="1574233978921" duration="17582000" />
+      <workItem from="1574233978921" duration="36467000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

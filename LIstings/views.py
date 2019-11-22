@@ -1,7 +1,8 @@
 from django.contrib.auth.forms import AuthenticationForm
 from django.shortcuts import render,redirect
-from LIstings.forms import RegistrationForm
+from .forms import RegistrationForm
 from django.contrib.auth import authenticate, login
+from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from django.apps import apps
 from .models import IungoUser
 from django.contrib import messages
@@ -56,12 +57,12 @@ def userpage(request):
         return render(request, 'registration/login.html', {'form': form})
 
 
-
 def load_categories(request):
     client_type = request.GET.get('client_type')
     model = apps.get_model('LIstings', client_type)
     client_category = model.objects.all()
     return render(request, 'registration/Category_dropdown.html', {'categories': client_category})
+
 
 def user_list(request, user_type):
     users = IungoUser.objects.filter(client_category=user_type)
