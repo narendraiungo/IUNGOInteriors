@@ -122,7 +122,7 @@
       <workItem from="1574059459535" duration="812000" />
       <workItem from="1574140149921" duration="3278000" />
       <workItem from="1574168717246" duration="5367000" />
-      <workItem from="1574233978921" duration="71896000" />
+      <workItem from="1574233978921" duration="72175000" />
     </task>
     <task id="LOCAL-00001" summary="bookappointment">
       <created>1574423780315</created>
@@ -145,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574682855868</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="listings">
+      <created>1574683023509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574683023509</updated>
+    </task>
+    <task id="LOCAL-00005" summary="filters">
+      <created>1574683160498</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574683160498</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bookappointment" />
     <MESSAGE value="listings" />
-    <option name="LAST_COMMIT_MESSAGE" value="listings" />
+    <MESSAGE value="filters" />
+    <option name="LAST_COMMIT_MESSAGE" value="filters" />
   </component>
 </project>
