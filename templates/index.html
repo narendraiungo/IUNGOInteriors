@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<ul>Architechs
+    {% for architect in architects %}
+        <li><a href="userlist/{{ architect }}">{{ architect }}</a></li>
+    {% endfor %}
+</ul>
+<ul>Interior Desiginers
+    {% for interiordesigner in interiordesigners %}
+        <li><a href="userlist/{{ interiordesigner }}">{{ interiordesigner }}</a></li>
+    {% endfor %}
+</ul>
+<ul>Architechs_Interior Desiginers
+    {% for architects_interior in architects_interiors %}
+        <li><a href="userlist/{{ architects_interior }}">{{ architects_interior }}</a></li>
+    {% endfor %}
+</ul>
+<ul>Contractors
+    {% for contractor in contractors %}
+        <li><a href="userlist/{{ contractor }}">{{ contractor }}</a></li>
+    {% endfor %}
+</ul>
+</body>
+</html>
