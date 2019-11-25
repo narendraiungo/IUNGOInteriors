@@ -6,10 +6,9 @@ from django.apps import apps
 
 
 class RegistrationForm(UserCreationForm):
-	# client_category = forms.ChoiceField(widget=forms.Select)
 	class Meta:
 		model = IungoUser
-		fields= ['username','email','first_name','last_name','ClientType','client_category','ProfileImage']
+		fields= ['username','email','first_name','last_name','ClientType','client_category']
 		widgets = {
 			'client_category': Select(attrs={'class': 'select'}),
 		}
@@ -20,10 +19,7 @@ class RegistrationForm(UserCreationForm):
 
 		if 'ClientType' in self.data:
 			try:
-				client_type = self.data.get('ClientType')
 				model = apps.get_model('LIstings', self.data.get('ClientType'))
-				print(self.data.get('client_category'))
-				# import pdb;pdb.set_trace()
 				self.fields['client_category'].queryset = model.objects.get(name=self.data.get('client_category'))
 			except (ValueError, TypeError):
-				pass  # invalid input from the client; ignore and fallback to empty  queryset
+				pass

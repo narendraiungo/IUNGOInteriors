@@ -22,7 +22,7 @@ class sub_category(models.Model):
 
 class Customer(models.Model):
     name = models.CharField(max_length=20)
-    phone = models.BigIntegerField(max_length=10)
+    phone = models.BigIntegerField()
     password = models.CharField(max_length=20)
 
     def __str__(self):
@@ -47,6 +47,7 @@ class Questions(models.Model):
     question = models.TextField(max_length=200)
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
     customer = models.ForeignKey(Customer, on_delete=models.CASCADE)
+    pub_date = models.DateTimeField('date published', auto_now_add=True)
 
     def __str__(self):
         return self.question
@@ -54,8 +55,10 @@ class Questions(models.Model):
 
 class Answers(models.Model):
     answer = models.TextField(max_length=200)
+    question=models.ForeignKey(Questions,on_delete=models.CASCADE)
     customer = models.ForeignKey(Customer, on_delete=models.CASCADE)
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
+    pub_date = models.DateTimeField('date published', auto_now_add=True)
 
     def __str__(self):
         return self.answer
@@ -64,7 +67,7 @@ class Answers(models.Model):
 class FeedbackRating(models.Model):
     given_by = models.ForeignKey(Customer, on_delete=models.CASCADE)
     given_to = models.ForeignKey(Client, on_delete=models.CASCADE)
-    feedback = models.TextField(max_length=50)
+    feedback = models.CharField(max_length=50)
     rating = models.IntegerField()
 
     def __str__(self):

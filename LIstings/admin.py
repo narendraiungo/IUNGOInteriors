@@ -5,6 +5,6 @@ from . import models
 # Register your models here.
 
 class IungoUserAdmin(admin.ModelAdmin):
-    list_display = ['username','email','first_name','last_name','client_type','client_category']
+    list_display = ['username','email','first_name','last_name','ClientType','client_category']
 
 admin.site.register(IungoUser,IungoUserAdmin)

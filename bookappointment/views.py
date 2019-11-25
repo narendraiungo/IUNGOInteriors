@@ -1,10 +1,10 @@
 from django.shortcuts import render, redirect
-from .models import BookAppointment, Category, sub_category, Customer,FeedbackRating
+from .models import BookAppointment, Category, sub_category, Customer,FeedbackRating,Client
 from .forms import AppointmentForm
 import datetime
 from django.http import HttpResponse
 from django.contrib import messages
-from .filters import SubcategoryForm,RatingFilterForm
+from .filters import SubcategoryForm,RatingFilterForm,ExperienceFilter,BudgetFilterForm
 
 
 # Create your views here.
@@ -25,6 +25,10 @@ def Appointment(request):
 def SubcategoryFilter(request):
     category_list = sub_category.objects.all()
     category_filter = SubcategoryForm(request.GET, queryset=category_list)
+    # exp_list=Client.objects.include(Client __experience__contains=='request')
+    # exp_filter=ExperienceFilter(request.GET,queryset=exp_list)
+    # budget=Client.objects.filter(budget__range=())
+    # budget_filter=BudgetFilterForm(request.GET,queryset=budget)
     return render(request, 'category_list.html', {'filter': category_filter})
 
 
