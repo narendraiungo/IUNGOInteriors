@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19f17203-621a-4b04-8cfb-a5d595e49c24" name="Default Changelist" comment="bookappointment">
-      <change afterPath="$PROJECT_DIR$/LIstings/migrations/0007_auto_20191124_0437.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LIstings/migrations/0008_architects_architects_interiordesigenrs_contractors_interiordesigenrs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LIstings/migrations/0009_auto_20191124_0543.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LIstings/migrations/0010_iungouser_client_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookappointment/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d3aa26e0-f69c-4a0d-892b-eeff7b2f8661.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d3aa26e0-f69c-4a0d-892b-eeff7b2f8661.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IUNGOInteriors/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/IUNGOInteriors/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LIstings/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/LIstings/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LIstings/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/LIstings/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LIstings/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/LIstings/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LIstings/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LIstings/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LIstings/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/LIstings/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookappointment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookappointment/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookappointment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookappointment/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html" afterDir="false" />
-    </list>
+    <list default="true" id="19f17203-621a-4b04-8cfb-a5d595e49c24" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +122,7 @@
       <workItem from="1574059459535" duration="812000" />
       <workItem from="1574140149921" duration="3278000" />
       <workItem from="1574168717246" duration="5367000" />
-      <workItem from="1574233978921" duration="71645000" />
+      <workItem from="1574233978921" duration="71896000" />
     </task>
     <task id="LOCAL-00001" summary="bookappointment">
       <created>1574423780315</created>
@@ -156,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574423976400</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="listings">
+      <created>1574682855868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574682855868</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +164,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bookappointment" />
-    <option name="LAST_COMMIT_MESSAGE" value="bookappointment" />
+    <MESSAGE value="listings" />
+    <option name="LAST_COMMIT_MESSAGE" value="listings" />
   </component>
 </project>
